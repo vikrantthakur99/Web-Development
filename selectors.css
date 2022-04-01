@@ -1,0 +1,11 @@
+#redElement{
+    color:red;
+}
+.redElement2{
+    color:blueviolet;
+}
+/* grouping selector that how to style the 2 or more items */
+
+footer,span{
+    color:rgb(233, 16, 168);
+}
