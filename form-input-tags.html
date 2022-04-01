@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and input tags</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <div>
+            <label for="name1">Name: </label>
+            <!-- lable allows us to select the text by clicking on it we have to pass in the value of id in the for of the label -->
+            <input type="Name" name="myName" id="name1">
+        </div>
+        <!-- name="myName" is used to define the data for getting the values -->
+        <br>
+        <div>
+            Roll: <input type="Roll" name="myRoll">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="myEligibility">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Others <input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br> <textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="ind">Swift</option>
+                <option value="ind">BMW</option>
+                <option value="ind">Mustang</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+        <br>
+    </form>
+</body>
+
+</html>
