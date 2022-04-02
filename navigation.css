@@ -1,0 +1,40 @@
+.navbar{
+    background-color: rgb(76, 73, 245);
+    border-radius: 5px;
+}
+
+.navbar ul{
+    overflow: auto;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin:13px 20px;
+    padding: top;
+    cursor:pointer;
+}
+.navbar li a:hover{
+    background-color:red;   
+}
+
+.navbar li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color: aliceblue;
+
+}
+
+.search{
+    padding:10px 75px;
+    float:right;
+}
+
+.navbar input{
+    border-radius:5px;
+    padding: 8px 39px;
+    width:129px;
+}
