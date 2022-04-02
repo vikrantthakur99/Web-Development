@@ -1,0 +1,11 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    line-height: 0.3em; 
+    /* describ the line height */
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
