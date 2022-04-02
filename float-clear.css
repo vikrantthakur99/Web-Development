@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width:900px;
+    border:3px solid rgb(241, 46, 46);
+    margin:auto;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.item{
+    border: 3px solid rgb(35, 185, 223);
+    margin: 12px 3px;
+    background: rgb(240, 186, 235);
+    margin:12px 3px;
+}
+
+#fruits{
+    float:left;
+    width:48%;
+}
+
+#computer{
+    float:left;
+    width:48%;
+}
+
+#vegies{
+    /* float:left; */
+    width:48%;
+    clear:both; 
+    /* clear is used to stop floating the other text boxes */
+}
