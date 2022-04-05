@@ -1,0 +1,45 @@
+.container{
+    height :554px;
+    width:100%;
+    border:2px solid black;
+    /* flex properties */
+    flex-direction: row;
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    /* for wrapping */
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.item{
+    background-color: tomato;
+    border: 2px solid green;
+    margin:13px;
+    padding: 3px;   
+    width:200px;
+    height:200px
+}
+
+.container{
+    display:flex;
+}
+
+#item-1{
+    order:2; 
+    /* who has the order will came at the last */
+    
+}
+
+#item-2{
+    flex-basis: 320px;
+    /* when flex direction is set to coloumn flex basis will contrl the height
+    when flex direction is set to row flex basis will contrl the width */
+
+    /* The flex-grow Property: it will increase the width type whose value is more("flex-grow: 8") */
+    /* The flex-basis Property:The flex-basis property specifies the initial length of a flex item. */
+}
