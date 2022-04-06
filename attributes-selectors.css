@@ -1,0 +1,39 @@
+.container{
+    display: block;
+    margin: auto;
+    width:233px;
+}
+
+input{
+    display: block;
+    
+}
+
+input[type='text']{
+    /* by giving the type we can target a particular element that we want to change */
+    padding:23px;
+    border:2px solid red;
+    
+}
+
+a[target]{
+    color:rgb(6, 128, 0);
+
+}
+
+a[target='_self']{
+    color:rgb(17, 207, 213);
+
+}
+
+/* li:nth-child(2){
+    color:rgb(253, 120, 253);
+} */
+
+li:nth-child(even){
+    background-color:rgb(230, 240, 47);
+}
+
+li:nth-child(odd){
+    background-color:rgb(56, 24, 217);
+}
