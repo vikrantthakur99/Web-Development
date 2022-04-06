@@ -1,0 +1,11 @@
+div > p {
+    /* div>p means only that will affect which has direct child of p */
+    color:red;
+    font-style: italic;
+}
+
+div + p {
+    /* agr div hai pichla sibling p ka */
+    color:rgb(0, 185, 93);
+    font-style: italic;
+}
