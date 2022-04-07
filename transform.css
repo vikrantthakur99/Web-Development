@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+.container{
+    height:80vh;
+    background-color: red;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: yellow;
+    border:2px solid black;
+    border-radius: 2px;
+    width:150px;
+    height:60px;
+    transition: all 1s ease-in-out;
+    transform: rotate(185deg);
+    /* we can also gave the transform separately  */
+}
+
+.box:hover{
+    transform: rotate(360deg);
+}
