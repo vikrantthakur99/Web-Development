@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- OWL CAROUSEL CSS FILE -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&family=Noto+Sans&family=PT+Sans&family=Poppins:wght@300&family=Raleway&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="sticky.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+        var modal = document.getElementById('id01');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/512x512bb.jpg" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Investors</a></li>
+            <li class="item"><a href="#">Card Services</a></li>
+            <li class="item"><a href="#">Apply Now</a></li>
+            <li class="item"><a href="#">Locate Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">BADLAAV</h1>
+        <h1 class="h1-primary">HUMSE HAI</h1>
+        <img src="img/home.jpg" alt="" class="home">
+    </section>
+
+    <section class="form1">
+        <h2 id="front">Gateway for Digital Life</h2>
+
+        <!-- login-form -->
+
+        <button class="btn-primary" onclick="document.getElementById('id01').style.display='block'"
+            style="width:auto;">Login</button>
+
+        <div id="id01" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">×</span>
+                </div>
+
+                <div class="container">
+                    <label><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button class="btn-secondary">Login</button>
+
+                    <input type="checkbox" checked="checked"> Remember me
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                    <span class="psw"><a href="#">Forgot password?</a></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- //signup form -->
+
+        <button class="btn-primary2" onclick="document.getElementById('id02').style.display='block'"
+            style="width:auto;">Sign up</button>
+
+        <div id="id02" class="modal">
+
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close"
+                        title="Close Modal">×</span>
+                </div>
+
+                <div class="container">
+                    <label><b>First Name</b></label>
+                    <input type="text" placeholder="Enter First Name" name="uname" required>
+
+                    <label><b>Last Name</b></label>
+                    <input type="text" placeholder="Enter Last Name" name="uname" required>
+
+                    <label><b>Email Address</b></label>
+                    <input type="text" placeholder="Enter Email Address" name="uname" required>
+
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label><b>Mobile Number</b></label>
+                    <input type="password" placeholder="Enter Mobile Number" name="psw" required>
+
+
+                    <button class="btn-secondary">Sign Up</button>
+                    <br>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                        class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- middle pane -->
+        <div class="middlepane">
+            <p class="middlepane-heading">AU Bank Savings Account</p>
+            <p class="heading-para">Our uniquely designed Savings Account provides a hassle-free banking experience with
+                a host of benefits to help you grow your wealth. We have specifically curated multiple variants of
+                Savings Account to address your needs & deliver value across all your financial transactions. Moving
+                away from the traditional banking scenario, we continue to challenge the banking status quo by offering
+                monthly interest payouts to all our customers.</p>
+        </div>
+
+       <!-- owl carousel -->
+        <section id="carousel">
+            <section class="feature">
+                <h1 class="feature-heading">The Best Banking Choice</h1>
+                <div class="feature-container
+            owl-carousel owl-theme">
+
+                <!-- begin -->
+                <article>
+                    <div class="img-box">
+                        <img src="img/savings account.png" alt="">
+                    </div>
+                    <div class="heading">
+                        <h2>Savings Account</h2>
+                    </div>
+                    <div class="feature-text">
+                        <p>Earn max interest p.a. with Monthly Interest Payout</p>
+                    </div>
+                    <button class="btn-feature">Open Account</button>
+                </article>
+                <!-- end -->
+                 <!-- begin -->
+                 <article>
+                    <div class="img-box">
+                        <img src="img/fixed deposit.png" alt="">
+                    </div>
+                    <div class="heading">
+                        <h2>Fixed Deposit </h2>
+                    </div>
+                    <div class="feature-text">
+                        <p>Earn special interest p.a. for senior citizens</p>
+                    </div>
+                    <button class="btn-feature">Know More</button>
+
+                </article>
+                <!-- end -->
+
+                <!-- begin -->
+                <article>
+                    <div class="img-box">
+                        <img src="img/apps.png" alt="">
+                    </div>
+                    <div class="heading">
+                        <h2>Mobile Banking Apps</h2>
+                    </div>
+                    <div class="feature-text">
+                        <p>Get instant access to your account using our apps.</p>
+                    </div>
+                    <button class="btn-feature">Know More</button>
+                </article>
+                <!-- end -->
+
+                <!-- begin -->
+                <article>
+                    <div class="img-box">
+                        <img src="img/247.png" alt="">
+                    </div>
+                    <div class="heading">
+                        <h2>24*7 Support</h2>
+                    </div>
+                    <div class="feature-text">
+                        <p>Our Support team is ready to help you anytime</p>
+                    </div>
+                    <button class="btn-feature">Know More</button>
+                </article>
+                <!-- end -->
+
+                <!-- begin -->
+                <article>
+                    <div class="img-box">
+                        <img src="img/various.png" alt="">
+                    </div>
+                    <div class="heading">
+                        <h2>Wide range of products</h2>
+                    </div>
+                    <div class="feature-text">
+                        <p>We are a one-stop-shop for all your banking needs</p>
+                    </div>
+                    <button class="btn-feature">Know More</button>
+                </article>
+                <!-- end -->
+                <!-- begin -->
+                <article>
+                    <div class="img-box">
+                        <img src="img/paperless1.png" alt="">
+                    </div>
+                    <div class="heading">
+                        <h2>Paperless Banking</h2>
+                    </div>
+                    <div class="feature-text">
+                        <p>Enjoy the convenience of depositing funds online.</p>
+                    </div>
+                    <button class="btn-feature">Know More</button>
+                </article>
+                <!-- end -->
+            </div>
+        </section>
+    </section> 
+                
+            
+            <!-- redirecting to the playstore -->
+            
+
+            <!-- <a target="_blank" class="btn btn-google" href="https://play.google.com/store/apps/details?id=com.ausmallfinancebank.amb" title="Google Play">Google Play</a> -->
+
+
+
+
+
+           <!-- jquery -->
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+           <!-- LOCAL JS FILE -->
+           <script src="script.js"></script>
+           <!-- OWL CAROUSEL JS FILE -->
+           <script src="owl-carousel/owl.carousel.min.js"></script> 
+           
+
+</body>
+
+</html>
