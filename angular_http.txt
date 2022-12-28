@@ -1,0 +1,29 @@
+1. https://stackblitz.com/edit/angular-post-request-examples?file=src%2Fapp%2Fcomponents%2Fpost-request-typed.component.ts
+	-> posting data and returning data
+
+2. https://stackblitz.com/edit/angular-http-post-request-example?file=src%2Fapp%2Fuser.component.ts
+	-> httpclient using service files
+
+3. sending data to api url in JSON format - 
+
+	this.http.post<any>(link,{"emp_id":emp_id,"password":password}).subscribe(result=>{
+		console.log(result);
+		if(result==true){
+		        console.log("dashboardpage");
+		}
+		else{
+			console.log("loginpage");
+		}
+	},error=>{
+	      console.log('error');
+	})
+	}
+
+4. sending data by adding in api url - 
+	const link = "http://localhost:8000/user/";
+	const myData = this.emp_id;
+	this.http.get(link + myData).subscribe(data => {
+		console.log(data);
+	}, error => {
+		console.log('error');
+	})}
